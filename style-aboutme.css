@@ -1,0 +1,40 @@
+.background-image{
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    margin-left: 300px;
+    z-index: 1;
+    height: 800px;
+    overflow: hidden;
+}
+
+.intro-about-me{
+    padding: 40px;
+    margin-left: 300px;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+.intro-about-me p{
+    padding: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.avatar img{
+    border-radius:50%;
+    height: 100px;
+    width: 100px;
+}
+
+.text-end{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-end p:nth-child(2){
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+

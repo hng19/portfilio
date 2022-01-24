@@ -1,0 +1,163 @@
+:root{
+    --color-sidebar: rgb(95, 87, 87);
+    --color-author: rgb(238, 119, 45);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+body{
+    height: 100vh;  
+    font-family: 'Roboto', sans-serif;  
+}
+
+a{
+    text-decoration: none;
+}
+
+.homepage{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+}
+
+.sidebar-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #FEF9F7;
+    padding: 40px 20px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px;
+}
+
+.sidebar-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-menu a,.social-container{
+    font-size: 20px;
+    padding: 20px 35px;
+    display: block;
+    color: var(--color-sidebar);
+}
+
+.sidebar-menu a:first-of-type {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.fa-check-circle{
+    color: rgb(11, 87, 228);
+}
+ 
+.social-container a{
+    padding: 5px;
+    display: inline-block;
+    padding-left: 20px;
+    margin-right: 10px;
+    color: var(--color-sidebar);
+}
+
+.sidebar-menu a:nth-child(2){
+    color: var(--color-author);
+}
+
+.author{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    background-color: var(--color-author);
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.author a{
+    color: #fff ;
+}
+
+.choose1:hover{
+    color: var(--color-author);
+}
+
+.choose2:hover{
+    color: var(--color-author);
+}
+
+.choose3:hover{
+    color: var(--color-author);
+}
+
+.intro{
+    display: flex;
+    max-height: 100%;
+    margin-left: 300px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 50px;
+    height: 100vh;
+}
+
+.intro img{
+    border-radius: 5px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.intro {
+    font-family: 'Baloo Bhai 2', cursive;
+}
+ 
+.name {
+    color: var(--color-author);
+}
+
+.background{
+    position: relative;
+    top: -38px;
+    left: -15px;
+    z-index: -1;
+    overflow: hidden;
+    font-family: 'Allura', cursive;
+}
+
+.background p , .intro-content a{
+    position: relative;
+    right: -75px;
+    font-size: 27px;
+}
+
+.intro-content{
+    padding-left: 20px;
+}
+
+.intro-content a{
+    border-radius: 30px;
+    padding: 0px 20px 0px;
+    background-color: var(--color-author);
+    color: #fff;
+}
+
